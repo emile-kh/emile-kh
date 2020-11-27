@@ -121,6 +121,7 @@ p {
 
 .page-free {
 	height: 810px;
+	transform: translate;
 }
 
 .inks {
@@ -214,6 +215,11 @@ div.white {
 	color: black;
 }
 
+.greybg {
+	background: #333;
+	color: white;
+}
+
 div.grey {
 	background: white;
 	color: #333;
@@ -221,4 +227,30 @@ div.grey {
 
 .description {
 	padding-top: 10px;
+}
+
+.menu {
+	height: 300px;
+	align-content: center;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.menu a {
+	color: white; 
+	font-weight: 300; 
+	letter-spacing: 2px; 
+	text-decoration: none; 
+	background: #333; 
+	padding: 20px 5px; 
+	display: inline-block; 
+	width: 100%; 
+	text-align: center; 
+}
+
+.menu a:hover {
+	background-color: white;
+	color: #333;
 }
