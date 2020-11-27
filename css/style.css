@@ -16,6 +16,7 @@ a:hover {
 	color: black;
 	/*border: 2px dotted black;
 	border-radius: 5px;*/
+	/*transition: .2s ease-in-out;*/
 }
 
 h1 {
@@ -27,11 +28,21 @@ h1:hover {
 	  background: -webkit-linear-gradient( 45deg, aqua, yellow);
 	  -webkit-background-clip: text;
 	  -webkit-text-fill-color: transparent;
+	  transition: .75s ease-in-out;
 }
+
+/*h2:hover {
+	  background: -webkit-linear-gradient( 45deg, aqua, yellow);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	  transition-duration: .5s;
+	  transition-timing-function: ease-in-out;
+} */
 
 h2 {
 	font-size: 43pt;
 	font-weight: 900;
+	padding-bottom: 5px;
 }
 
 h3 {
@@ -46,13 +57,6 @@ p {
 	line-height: 125%;
 }
 
-p.year {
-	text-decoration: underline;
-}
-
-div {
-	
-}
 
 .page {
 	height: 800px;
@@ -60,6 +64,7 @@ div {
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
+
 
 .page-spacebetween {
 	height: 784px;
@@ -112,6 +117,91 @@ div {
 
 .bold {
 	font-weight: 900;
+}
+
+.page-free {
+	height: 810px;
+}
+
+.inks {
+	position: relative;
+}
+
+.h2-free {
+	position: absolute;
+	top: 15px;
+	right: 50px;
+	font-size: 50pt;
+}
+
+ol	{
+	position: absolute;
+	top: 490px;
+	left: 755px;
+	line-height: 150%;
+	font-size: 20px;
+}
+
+.p-free {
+	position: absolute;
+	top: 80px;
+	right: 55px;
+	font-size: 11pt;
+}
+
+.dracula {
+	position: absolute;
+	top: 25px;
+	left: 725px;
+	z-index: 1;
+}
+
+.mutual {
+	position: absolute;
+	top: 430px;
+	right: 30px;
+}
+
+.cells {
+	position: absolute;
+	top: 150px;
+	right: 40px;
+}
+
+.spring {
+	position: absolute;
+	top: 35px;
+	left: 545px;
+}
+
+.moonwater {
+	position: absolute;
+	top: 195px;
+	left: 455px;
+}
+
+.goawaysatan {
+	position: absolute;
+	top: 450px;
+	left: 360px;
+}
+
+.tree {
+	position: absolute;
+	top: 37px;
+	left: 55px;
+}
+
+.mars {
+	position: absolute;
+	top: 400px;
+	left: 55px;
+}
+
+.view {
+	position: absolute;
+	top: 650px;
+	left: 55px;
 }
 
 div.purple {
