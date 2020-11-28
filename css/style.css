@@ -145,7 +145,7 @@ ol	{
 
 .p-free {
 	position: absolute;
-	top: 80px;
+	top: 88px;
 	right: 55px;
 	font-size: 11pt;
 }
@@ -165,7 +165,7 @@ ol	{
 
 .cells {
 	position: absolute;
-	top: 150px;
+	top: 145px;
 	right: 40px;
 }
 
@@ -229,6 +229,8 @@ div.grey {
 	padding-top: 10px;
 }
 
+/*
+
 .menu {
 	height: 300px;
 	align-content: center;
@@ -254,3 +256,5 @@ div.grey {
 	background-color: white;
 	color: #333;
 }
+
+*/
