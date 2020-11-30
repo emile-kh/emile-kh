@@ -354,6 +354,8 @@ img[wrappedman]{width: 100%;
 img[alt="wrappedman"] {
 	width: 100vw;
 	max-height: 600px;
+	max-width: 600px;
+	margin: auto;
 }
 
 #dracula {
