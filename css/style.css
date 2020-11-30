@@ -4,6 +4,8 @@ body {
 	font-family: 'Space Mono', monospace;
 	background: black;
 	color: white;
+	margin: 0;
+	font-size: 12px;
 }
 
 a {
@@ -20,7 +22,7 @@ a:hover {
 }
 
 h1 {
-	font-size: 65pt;
+	font-size: 5.5rem;
 	font-weight: 900;
 }
 
@@ -40,18 +42,18 @@ h1:hover {
 } */
 
 h2 {
-	font-size: 43pt;
+	font-size: 3.5rem;
 	font-weight: 900;
 	padding-bottom: 5px;
 }
 
 h3 {
-	font-size: 19pt;
+	font-size: 1.6rem;
 	font-weight: normal;
 }
 
 p {
-	font-size: 12pt;
+	font-size: 1rem;
 	font-weight: 10;
 	letter-spacing: 0px;
 	line-height: 125%;
@@ -59,7 +61,10 @@ p {
 
 
 .page {
-	height: 800px;
+	width: 100vw;
+	height: 100vh;
+
+
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
@@ -67,14 +72,19 @@ p {
 
 
 .page-spacebetween {
-	height: 784px;
+	height: 100vh;
+	flex-wrap: 100vw;
+	margin: auto;
+	min-height: 600px;
 	display: flex;
 	justify-content: space-between;
+	align-items: stretch;
 }
 
 .pic {
-	height: 800px;
-
+	height: 100vh;
+	min-height: 600px;
+	width: 40%;
 }
 
 .onethirdofpage {
@@ -102,6 +112,16 @@ p {
 
 .right {
 	width: 40%;
+	margin: auto;
+}
+
+.left_inks {
+	width: 49%;
+	margin: auto;
+}
+
+.right_inks {
+	width: 50%;
 	margin: auto;
 }
 
@@ -150,60 +170,63 @@ ol	{
 	font-size: 11pt;
 }
 
-.dracula {
+/* #dracula {
 	position: absolute;
 	top: 25px;
 	left: 725px;
 	z-index: 1;
+	max-height: 450px;
 }
 
-.mutual {
+#mutual {
 	position: absolute;
 	top: 430px;
 	right: 30px;
-}
+} 
 
-.cells {
+#cells {
 	position: absolute;
 	top: 145px;
 	right: 40px;
 }
 
-.spring {
+#spring {
 	position: absolute;
 	top: 35px;
 	left: 545px;
 }
 
-.moonwater {
+#moonwater {
 	position: absolute;
 	top: 195px;
 	left: 455px;
 }
 
-.goawaysatan {
+#goawaysatan {
 	position: absolute;
 	top: 450px;
 	left: 360px;
 }
 
-.tree {
+#tree {
 	position: absolute;
 	top: 37px;
-	left: 55px;
+	left: 4%;
+	max-height: 350px;
 }
 
-.mars {
+#mars {
 	position: absolute;
 	top: 400px;
 	left: 55px;
 }
 
-.view {
+#view {
 	position: absolute;
 	top: 650px;
 	left: 55px;
 }
+*/
 
 div.purple {
 	background: #fc3a7e;
@@ -223,6 +246,11 @@ div.white {
 div.grey {
 	background: white;
 	color: #333;
+	display: flex;
+}
+
+.grey-root {
+	position: relative;
 }
 
 .description {
@@ -258,3 +286,190 @@ div.grey {
 }
 
 */
+
+/* responsive */
+
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: calc(var(--aspect-ratio, .5625) * 100%); 
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.videoWrapper2 {
+  position: relative;
+  padding-bottom: calc(var(--aspect-ratio, .5625) * 100%); 
+  height: 0;
+}
+.videoWrapper2 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.videoWrapper3 {
+  position: relative;
+  padding-bottom: calc(var(--aspect-ratio, .5625) * 100%); 
+  height: 0;
+}
+.videoWrapper3 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.inkswrapper {
+  position: relative;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */;
+}
+
+img[alt="inks"] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.bigimage {
+	display: flex;
+	background-color: white;
+}
+
+img[alt="wrappedman"] {
+	width: 100vw;
+}
+
+#dracula {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	max-height: 450px;
+}
+
+.columns {
+	width: 100vw;
+	height: auto;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.column {
+	width: 45vw;
+
+	align-content: space-between;
+
+}
+
+.image1 {
+
+	width: 74%;
+	background-image: url(../img/left_ear-2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 100%;
+
+
+}
+.image2 {
+	float: right;
+	width: 74%;
+	background-image: url(../img/right_ear-2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+/* .chaos {
+	width: 100vw;
+	height: 90vh;
+	margin: auto;
+	display: flex;
+
+	background-color: #eee;
+	position: relative;
+	
+}
+.chunk1 {
+	width: 100vw;
+
+	position: absolute;
+	left: 5%;
+	top: 3%;
+}
+
+.chunk2 {
+	width: 45vw;
+
+	position: absolute;
+	left: 47.5%;
+	z-index: 1;
+}
+
+.chunk3 {
+	width: 45vw;
+
+	position: absolute;
+	left: 75.5%;
+
+}
+*/
+
+/*
+.image3 {
+	width: 100%;
+	max-width: 350px;
+	background-image: url(../img/laughmeatree.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top 5%;
+	padding-bottom: 100%;
+}
+.image4 {
+	width: 100%;
+	max-width: 450px;
+	background-image: url(../img/dracula.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top 10%;
+	background-position: center;
+	padding-bottom: 100%;
+}
+.image5 {
+	width: 100%;
+	max-width: 350px;
+	background-image: url(../img/mutual.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 100%;
+}
+*/
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.responsive2 {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+}
+
