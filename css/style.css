@@ -347,8 +347,13 @@ img[alt="inks"] {
 	background-color: white;
 }
 
+img[wrappedman]{width: 100%;
+	height: auto;
+}
+
 img[alt="wrappedman"] {
 	width: 100vw;
+	max-height: 600px;
 }
 
 #dracula {
