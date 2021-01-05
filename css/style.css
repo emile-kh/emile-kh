@@ -239,8 +239,8 @@ div.white {
 }
 
 
-div.orange {
-	background: #ed5426;
+div.blue {
+	background: #4bacf0;
 	color: white;
 }
 
@@ -515,15 +515,19 @@ img[alt="wrappedman"] {
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
+	.blue {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 	.left {
-	width: 70%;
-	margin: auto;
-	padding-bottom: 50px;
+		width: 70%;
+		margin: auto;
+		padding-bottom: 50px;
 	}
 
 	.right {
-	width: 70%;
-	margin: auto;
+		width: 70%;
+		margin: auto;
 	}
 	.twothirdofpage {
 		flex-direction: column;
