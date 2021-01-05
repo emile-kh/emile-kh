@@ -238,6 +238,12 @@ div.white {
 	color: black;
 }
 
+
+div.orange {
+	background: #ed5426;
+	color: white;
+}
+
 .greybg {
 	background: #333;
 	color: white;
@@ -367,7 +373,7 @@ img[alt="wrappedman"] {
 }
 
 .columns {
-	width: 100vw;
+	width: 99vw;
 	height: auto;
 	margin: auto;
 	display: flex;
@@ -377,11 +383,12 @@ img[alt="wrappedman"] {
 }
 
 .column {
-	width: 45vw;
+	width: 43vw;
 
 	align-content: space-between;
 
 }
+
 
 .image1 {
 
