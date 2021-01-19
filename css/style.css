@@ -47,6 +47,13 @@ h2 {
 	padding-bottom: 5px;
 }
 
+h2:hover {
+	  background: -webkit-linear-gradient( 45deg, aqua, yellow);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	  transition: .75s ease-in-out;
+}
+
 h3 {
 	font-size: 1.6rem;
 	font-weight: normal;
@@ -230,6 +237,16 @@ ol	{
 
 div.purple {
 	background: #fc3a7e;
+	color: white;
+}
+
+div.tomato {
+	background: #FF6347;
+	color: white;
+}
+
+div.teal{
+	background: #142324;
 	color: white;
 }
 
