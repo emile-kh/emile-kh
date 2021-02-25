@@ -134,6 +134,10 @@ p {
 	display: flex;
 }
 
+.italic {
+	font-style: italic;
+}
+
 .left {
 	width: 40%;
 	margin: auto;
