@@ -77,6 +77,15 @@ p {
 	flex-wrap: wrap;
 }
 
+.page09 {
+	width: 100vw;
+	height: 90vh;
+
+
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
 
 .page-spacebetween {
 	height: 100vh;
@@ -94,6 +103,11 @@ p {
 	width: 40%;
 }
 
+.onefifthofpage {
+	height: 10vh;
+	display: flex;
+}
+
 .onethirdofpage {
 	height: 250px;
 	display: flex;
@@ -106,6 +120,14 @@ p {
 
 .footer {
 	height: 700px;
+	line-height: 2.5;
+	text-align: center;
+	font-size: 18px;
+	display: flex;
+}
+
+.footernew {
+	height: 50vh;
 	line-height: 2.5;
 	text-align: center;
 	font-size: 18px;
